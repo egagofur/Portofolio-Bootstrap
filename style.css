@@ -1,0 +1,35 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #3578e5;
+  color: #fff;
+}
+
+.jumbotron .display-4 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.jumbotron .lead {
+  font-size: 24px;
+}
+
+#pictures {
+  background-color: #3578e5;
+}
+
+#pictures .row h2 {
+  color: #fff;
+}
+
+footer {
+  background-color: #303846;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#contact .btn {
+  background-color: #3578e5;
+  color: #fff;
+}
