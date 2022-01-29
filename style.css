@@ -13,11 +13,11 @@
   font-size: 24px;
 }
 
-#pictures {
+#history {
   background-color: #3578e5;
 }
 
-#pictures .row h2 {
+#history .row h2 {
   color: #fff;
 }
 
@@ -29,7 +29,11 @@ section {
   padding-top: 5rem;
 }
 
+#contact {
+  background-color: #fff;
+}
+
 #contact .btn {
-  background-color: #3578e5;
+  background-color: #303846;
   color: #fff;
 }

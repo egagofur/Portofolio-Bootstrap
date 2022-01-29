@@ -16,8 +16,8 @@
   </head>
   <body id="home">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+      <div class="container-fluid">
         <a class="navbar-brand fw-bold" href="https://egagofur.github.io/SocialProfile/" target="_blank">Ega Gofur Triwahana</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,10 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#pictures">Pictures</a>
+              <a class="nav-link" href="#history">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -66,7 +69,7 @@
     <div class="jumbotron text-center">
       <img src="img/egagofur.jpg" alt="Ega Gofur" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Ega Gofur Triwahana</h1>
-      <p class="lead">Pelajar SMK | Learn Programming</p>
+      <p class="lead">Pelajar SMK | JsonDev</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -111,38 +114,78 @@
     <!-- end about -->
 
     <!-- main project -->
-    <section id="pictures">
+    <section id="history">
       <div class="container">
-        <div class="row text-center mb-3">
-          <h2>My Pictures</h2>
+        <div class="row text-center mb-3 fw-bold" style="font-family: montserrat;">
+          <h2>My History</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/pict.jpg" class="card-img-top" alt="picture1" />
-            <div class="card-body">
-              <p class="card-text">Waktu pertama kali belajar HTML, mempelajari struktur dasar html dan CSS- 28 Desember 2021</p>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/pict.jpg" class="card-img-top" alt="picture1" />
+              <div class="card-body">
+                <p class="card-text">Waktu pertama kali belajar HTML, mempelajari struktur dasar html dan CSS- 28 Desember 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/pict1.png" class="card-img-top" alt="picture2" />
+              <div class="card-body">
+                <p class="card-text">Mencoba membuat Web sederhana hanya menggunakan HTML dan CSS-07 Januari 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/pict2.png" class="card-img-top" alt="picture3" />
+              <div class="card-body">
+                <p class="card-text">Mencoba membuat Web Social Profile dengan framework react-15 Januari 2022</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/pict1.png" class="card-img-top" alt="picture2" />
-            <div class="card-body">
-              <p class="card-text">Mencoba membuat Web sederhana hanya menggunakan HTML dan CSS-07 Januari 2022</p>
+        <section id="projects">
+          <div class="container" style="margin-top: 9vh">
+            <div class="row text-center mb-3 fw-bold" style="font-family: montserrat;">
+              <h2>My Projects</h2>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/pict2.png" class="card-img-top" alt="picture3" />
-            <div class="card-body">
-              <p class="card-text">Mencoba membuat Web Social Profile dengan framework react-15 Januari 2022</p>
+       <div class="container ps-5">
+        <div class="row mt-5 br">
+          <div class="col-md-4 mb-3 ">
+            <div class="card" style="width: 18rem;">
+              <img src="img/gambar1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Web dengan Wix</h5>
+                <p class="card-text">Membuat WebSite menggunakan Wix, cukup mudah bagi saya yang masih junior untuk mengggunakannya dan sudah responsive tentunya.</p>
+                <a href="https://egagofurtriwahana.wixsite.com/my-site-2" class="btn btn-primary" target="_blank">Kunjungi</a>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" style="width: 18rem;">
+              <img src="img/gambar2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Web dengan Bootstrap 5</h5>
+                <p class="card-text">Pertama kalinya membuat WebSite menggunakan framework CSS yaitu bootstrap. Tidak terlalu sulit bagi saya jika pernah belajar HTML dan CSS.</p>
+                <a href="https://egagofur.github.io/webblog/" class="btn btn-primary" target="_blank">Kunjungi</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" style="width: 18rem;">
+              <img src="img/gambar3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Web dengan React</h5>
+                <p class="card-text">Mencoba web sederhana menggunakan framework javascript yaitu react. lumayan sulit bagi saya tapi kedepanya saya akan mendalami karena sangat menarik untuk dipelajari.</p>
+                <a href="https://egagofur.github.io/SocialProfile/" class="btn btn-primary" target="_blank">Kunjungi</a>
+              </div>
+            </div>
+          </div>
+         </div>
+       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -159,7 +202,7 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>Contact Me</h2>
+            <h2 style="color: #303846">Contact Me</h2>
           </div>
           </div>
           <div class="row justify-content-center">
